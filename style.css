@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("logo.png"), conic-gradient(red, yellow, green, blue, black);
+    background-color: rgba(221, 165, 141, 1);
+    /*background-size: contain;*/
+    background-repeat: round;
+    background-position: fixed;
+    padding: 0;
+    margin: 0;
+}
+@media screen and (max-width: 600px) {
+    body{
+        background-size: contain;
+        background-repeat: repeat;
+    }
+    /*.sectionA{
+        width: 70%;
+    }*/
+}
+.pages{
+    position: fixed;
+    height: 100%;
+    width: 160px;
+    padding: 20px;
+    /*top: 0;
+    left: 0;*/
+    background: rgba(251, 122, 117, 0.95);
+    font-family: trirong;
+    text-shadow: 4px 4px 4px #aaa;
+}
+.pages a{
+    display: block;
+    padding: 20px;
+    padding-bottom: 25px;
+    top: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    line-height: 25px;
+    font-size: 15px;
+    transition: width 2s;
+}
+.pages ul li{
+    list-style-type: none;
+}
+.pages a:hover{
+    cursor:pointer;
+    color: black;
+    width: 130px;
+}
+@media screen and (max-width: 600px){
+    .pages{
+        width: 13.3em;
+    }
+}
+.theabout{
+    border-bottom: 1px solid black;
+}
+.thefeatures{
+    border-bottom: 1px solid black;
+}
+.theshop{
+    border-bottom: 1px solid black;
+}
+.sectionA{ 
+  margin-left: 200px;
+  padding-top: 20px;
+  border: 1px solid black;
+  padding-bottom: 10px;
+  background-image: linear-gradient(to right, rgba(131, 88, 124, 0.79), rgba(152, 106, 121, 0.85), rgba(146, 123, 167, 0.95)) ;
+}
+h2{
+  padding-left: 50px;
+  padding-bottom: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sofia;
+}
+.para1{
+    padding: 20px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.watchCom{
+    margin-left: 30px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-right: 0; 
+}
+figcaption{
+    margin-left: 50px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    margin-right: 0; 
+    font-size: 15px;
+    font-weight: bold;
+}
+.sectionB{
+    border: 1px solid black;
+    border-top: none;
+    background-image: linear-gradient(to right, rgba(131, 88, 124, 0.79), rgba(152, 106, 121, 0.85), rgba(146, 123, 167, 0.95));
+    margin-left: 200px;
+}
+h3{
+  padding-left: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sofia;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.features-list{
+    margin-left: 20px;
+    margin: 20px;
+    padding: 15px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: bold;
+}
+.display{
+    margin-left: 200px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(to right, rgba(131, 88, 124, 0.79), rgba(152, 106, 121, 0.85), rgba(146, 123, 167, 0.95)) ;
+    border: 1px solid black;
+    border-top: none;
+}
+.cart{
+    text-align: center;
+}
+.images{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+@media screen and (max-width: 600px) {
+    .display{
+        margin-left: 200px;
+        width: auto;
+    }
+    .images{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+.grid{
+    border: 1px solid black;
+    background-color: #b8b8d1;
+    margin: auto;
+    width: auto;
+    padding: auto;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #fffffb;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.img{
+    width: 300px;
+    height: 300px;
+}
+@media screen and (max-width: 600px){
+    .grid{
+        width: auto;
+        padding: auto;
+        margin: auto;
+    }
+    .img{
+        width: 150px;
+        height: 150px;
+    }
+}
+button{
+    font-size: 10px;
+    cursor: pointer;
+    padding: 10px;
+    color: #fffffb;
+    background-color: #b8b8d1;
+    border-color: blanchedalmond;
+    width: 70px;
+}
+footer{
+    border: 1px solid black;
+    border-top: none;
+    margin-left: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #aaa;
+    padding: 20px;
+}
